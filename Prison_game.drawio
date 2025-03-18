@@ -1,0 +1,367 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="5450" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Välkommen till fängelset. Ditt mål är att ta dig ut genom att lösa olika problem och komma förbi vakterna." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="300" y="70" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="Kolla runt i rummet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="577.5" y="210" as="targetPoint" />
+            <mxPoint x="470" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="&lt;br&gt;&lt;div&gt;Du hittar en liten svart nyckel i rummet som du använder för att låsa upp dina hand- och fotbojor&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="580" y="170" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pQqTcJ2Eys08VF5u_Wzt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="pQqTcJ2Eys08VF5u_Wzt-6" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="342.5" y="209.52" as="sourcePoint" />
+            <mxPoint x="240" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQqTcJ2Eys08VF5u_Wzt-6" value="Dörren var öppen så du kan sakta gå ut ur rummet då du fortfarande har hand- och fotbojor på dig" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="65" y="180" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQqTcJ2Eys08VF5u_Wzt-8" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Försöka att öppna dörren&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="210" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQqTcJ2Eys08VF5u_Wzt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="142.02" y="240" as="sourcePoint" />
+            <mxPoint x="142.02" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-2" value="Vad vill du göra?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="346" y="180" width="135" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-3" value="Du haltar sakta ut ur rummet.&lt;div&gt;Vill du gå åt vänster eller höger?&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="68" y="330" width="149" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-4" value="Du kan nu gå ut ur rummet och se en lång korridor som går både åt vänster och höger.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vilket håll vill du gå?&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="649.5" y="250" as="sourcePoint" />
+            <mxPoint x="650" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649.5" y="460" as="sourcePoint" />
+            <mxPoint x="649.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="460" as="sourcePoint" />
+            <mxPoint x="600" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="460" as="sourcePoint" />
+            <mxPoint x="700" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-10" value="Vänster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="418" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-11" value="Höger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="418" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-12" value="Du går i flera minuter men hittar ingenting så du måste vända om och leta till höger istället" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="440" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-13" value="Du går till höger och ser två dörrar en som står öppen medan den andra är stängd" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="440" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="452" as="sourcePoint" />
+            <mxPoint x="85" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="452" as="sourcePoint" />
+            <mxPoint x="185" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-16" value="Vänster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="75" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-17" value="Höger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-18" value="Du går i flera minuter men hittar ingenting så du måste vända om och leta till höger istället" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-50" y="432" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-19" value="Du går sakta till höger och ser två dörrar en som är öppen medan den andra dörren är stängd" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="175" y="437" width="165" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="450" as="sourcePoint" />
+            <mxPoint x="135" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="iMq0Rz0wAMGhrB8ikkGy-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="258" y="560" as="sourcePoint" />
+            <mxPoint x="310" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="560" as="sourcePoint" />
+            <mxPoint x="310" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-28" value="Öppna dörren" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-29" value="Stängda dörren" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="773" y="571" as="sourcePoint" />
+            <mxPoint x="773" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775" y="571" as="sourcePoint" />
+            <mxPoint x="715" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775" y="571" as="sourcePoint" />
+            <mxPoint x="825" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-33" value="Öppna dörren" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="675" y="531" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-34" value="Stängda dörren" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="765" y="531" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-35" value="Du går in genom den öppna dörren och ser en lång korridor med tre olika rum&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="75" y="545" width="127" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-36" value="Dörren var inte låst så du kunde gå in i rummet.&amp;nbsp;&lt;div&gt;När du väl är i rummet ser du en vakt.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vad vill du göra?&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="545" width="216" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-39" value="Dörren var inte låst så du kunde gå in i rummet.&amp;nbsp;&lt;div&gt;När du väl är i rummet ser du en vakt.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vad vill du göra?&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="561" width="216" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-40" value="Du går in genom den öppna dörren och ser en lång korridor med tre olika rum&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="593" y="560" width="127" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="iMq0Rz0wAMGhrB8ikkGy-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="918" y="720" as="sourcePoint" />
+            <mxPoint x="925" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="720" as="sourcePoint" />
+            <mxPoint x="980" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="720" as="sourcePoint" />
+            <mxPoint x="850" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-44" value="Springa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="678" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-45" value="Slåss med vakten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="678" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="704" as="sourcePoint" />
+            <mxPoint x="412" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="704" as="sourcePoint" />
+            <mxPoint x="474" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="704" as="sourcePoint" />
+            <mxPoint x="344" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-49" value="Springa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="662" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-50" value="Slåss med vakten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="662" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-51" value="Du försöker att springa men på grund av dina fotbojor kommer vakten ikapp och du blir instängd i en ny fängelsecell som inte går att ta sig ut ur." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="692" width="190" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-52" value="Du lyckas strypa vakten med hjälp av dina handbojor vilket gör att du kan fortsätta kolla runt i fängelset. Med hjälp av vaktens nycklar kan du även låsa upp dina fot- och handbojor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="692" width="245" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-53" value="Du lyckas springa bort från vakten genom att springa genom den öppna dörren du hittade förut och hittade tre olika rum." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="970" y="710" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-54" value="Vakten lyckas slå ner dig till marken och du blir instängd i en ny fängelsecell som inte går att ta sig ut ur." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="701" width="170" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-55" value="" style="endArrow=none;html=1;rounded=0;entryX=0.64;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="iMq0Rz0wAMGhrB8ikkGy-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="870" as="sourcePoint" />
+            <mxPoint x="730" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="870" as="sourcePoint" />
+            <mxPoint x="1000" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="850" as="sourcePoint" />
+            <mxPoint x="1050" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-60" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="iMq0Rz0wAMGhrB8ikkGy-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="890" as="sourcePoint" />
+            <mxPoint x="270" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="890" as="sourcePoint" />
+            <mxPoint x="995.3846153846152" y="891.153846153846" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="iMq0Rz0wAMGhrB8ikkGy-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="610.29" as="sourcePoint" />
+            <mxPoint x="-15" y="610.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-65" value="Vilket at dessa tre rum vill du gå in i?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-220" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="690" as="sourcePoint" />
+            <mxPoint x="-300" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.852;exitY=1.044;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="720" as="sourcePoint" />
+            <mxPoint x="-50" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.448;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="710" as="sourcePoint" />
+            <mxPoint x="-170" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-69" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-420" y="641" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-70" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="663" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-71" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-72" value="Vilket at dessa tre rum vill du gå in i?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-72" target="iMq0Rz0wAMGhrB8ikkGy-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="960" as="sourcePoint" />
+            <mxPoint x="920" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-72" target="iMq0Rz0wAMGhrB8ikkGy-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="990" as="sourcePoint" />
+            <mxPoint x="1170" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.448;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="980" as="sourcePoint" />
+            <mxPoint x="1050" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-76" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="830" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-77" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-78" value="I detta rum fanns det ett öppet fönster som du lyckas klämma dig ut ur." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-79" value="Rum 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1120" y="848" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-80" value="Rum 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="928" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-81" value="Rum 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="908" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-82" value="Rum 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="618" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-83" value="Rum 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-230" y="663" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-84" value="Rum 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-310" y="596" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-85" value="Grattis! du lyckades komma ut ur fängelset." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMq0Rz0wAMGhrB8ikkGy-86" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iMq0Rz0wAMGhrB8ikkGy-78" target="iMq0Rz0wAMGhrB8ikkGy-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="1120" as="sourcePoint" />
+            <mxPoint x="910" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,5 @@
 import time
 
-
 found_key = False  
 visited_room = False  
 found_second_key = False
@@ -10,7 +9,36 @@ visited_room_2 = False
 visited_room_3 = False
 fight = False
 talk = False
+entered_corridor = False
 
+def start_meny():
+    print("""Välkommen till mitt Prison Game spel
+Du har tre olika val.
+1. Spela spelet
+2. Läsa instruktionerna
+3. Avsluta spelet.""")
+    start_val = input("Vad vill du göra? ").strip().lower()
+    if start_val == "spela spelet":
+        welcome_message()
+        start_room()
+    elif start_val == "läsa instruktionerna":
+        print("\n")
+        filnamn = "Readme.txt"
+        try:
+            with open(filnamn, "r", encoding="utf-8") as fil:
+                content = fil.read()
+                print(content)
+        except FileNotFoundError:
+            print(f"Filen '{filnamn}' kunde inte hittas.")
+        except Exception as e:
+            print(f"Ett fel inträffade: {e}")
+        input("Tryck på valfri tangent för att fortsätta...")
+        start_meny()
+    elif start_val == "avsluta spelet":
+        exit()
+    else:
+        print("Ogiltigt val, försök igen")
+        start_meny()
 
 def welcome_message():
     print("Välkommen till fängelset. Ditt mål är att ta dig ut genom att lösa olika problem och komma förbi vakterna.")
@@ -19,16 +47,27 @@ def welcome_message():
 def exit_game():
     print("Grattis, du lyckas ta dig ut ur fängelset!")
     # time.sleep(0.3)
-    exit() 
+    play_again()
 
 def exit_lost_game():
     print("Du lyckades inte ta dig ut ur fängelset.")
     # time.sleep(0.3)
-    exit()
+    play_again()
+
+def play_again():
+    play_again = input("Vill du spela igen? (ja/nej): ").strip().lower()
+    # time.sleep(1)
+    if play_again != "ja":
+        print("Tack för att du spelade!")
+        exit()
+        # time.sleep(1)
+    if play_again == "ja":
+        print("Varsågod att försöka igen")
+        main()
 
 def start_room():
     action = input("Vad vill du göra? (kolla runt, öppna dörren): ").strip().lower()
-        # time.sleep(1)
+    # time.sleep(1)
     if action == "kolla runt":
         check_room()  
     elif action == "öppna dörren":
@@ -100,9 +139,8 @@ def room_one():
         # time.sleep(1)
         visited_room_1 = True
         
-        # if not fight or talk == True:
     action = input("Vill du (slåss) eller (försöka övertala) vakten?: ").strip().lower()
-            # time.sleep(1)
+    # time.sleep(1)
         
     if action == "slåss":
         fight = True
@@ -120,7 +158,7 @@ def room_one():
                 # time.sleep(1)
                 exit_lost_game()
             else:
-                print("Ogiltligt val, försök igen")
+                print("Ogiltigt val, försök igen")
                 room_one()
 
         else:
@@ -141,10 +179,10 @@ def room_one():
             # time.sleep(1)
             exit_lost_game()
         else:
-            print("Ogiltligt val, försök igen")
+            print("Ogiltigt val, försök igen")
             room_one()
     else:
-        print("Ogiltligt val, försök igen")
+        print("Ogiltigt val, försök igen")
         room_one()
 
 def room_two():
@@ -155,6 +193,7 @@ def room_two():
     exit_game()
 
 def room_three():
+    global found_second_key
     # time.sleep(1)
     print("I rum 3 hittar du en nyckel.")
     found_second_key = True 
@@ -163,7 +202,7 @@ def room_three():
         
     if action == "fortsätta kolla runt":
         print("Du fortsätter att undersöka rummet noggrant.")
-        #time.sleep(15)
+        # time.sleep(15)
         print("Du kollade runt i rummet men hittade ingenting och fortsätter därför igenom den öppna dörren.")
         # time.sleep(1)
         enter_corridor()
@@ -172,7 +211,6 @@ def room_three():
     else:
         print("Ogiltigt val, försök igen.")
         room_three()
-
 
 def enter_room():
     global found_key, visited_room, visited_room_1, visited_room_2, visited_room_3
@@ -185,41 +223,61 @@ def enter_room():
     # time.sleep(0.5)
     if room_choice == "rum 1":
         room_one()
-
     elif room_choice == "rum 2":
         room_two()
-        
     elif room_choice == "rum 3":
         room_three()
     else:
-        print("Ogiltligt val, försök igen")
+        print("Ogiltigt val, försök igen")
         enter_room()
         
-
 def enter_corridor():
-    print("Du går genom den öppna dörren och möts av en lång korridor.")
-    # time.sleep(1)
-    print("Korridoren har 15 fängelseceller och ett vakt rum.")
-    # time.sleep(1)
-    print("Du ser att cellerna 2, 5, 9 och 11 är öppna.")
-    # time.sleep(1)
-    
-    while True:
-        cell_choice = input("Vilken cell vill du gå in i? (2, 5, 9, 11) eller vill du gå in i (vakt rummet)?: ").strip().lower()
+    global entered_corridor
+    if entered_corridor != True:
+        print("Du går genom den öppna dörren och möts av en lång korridor.")
         # time.sleep(1)
+        print("Korridoren har 15 fängelseceller och ett vakt rum.")
+        # time.sleep(1)
+        print("Du ser att cellerna 2, 5, 9 och 11 är öppna.")
+        entered_corridor = True
+        # time.sleep(1)
+    
+    cell_choice = input("Vilken cell vill du gå in i? (2, 5, 9, 11) eller vill du gå in i (vakt rummet)?: ").strip().lower()
+    # time.sleep(1)
         
-        if cell_choice in ["2", "5", "9", "11"]:
-            print(f"Du går in i cell {cell_choice}.")
-            # time.sleep(1)
-            print("Det är en tom cell. Du kan återvända till korridoren.")
-            input("Tryck på Enter för att återvända till korridoren.")
-        elif cell_choice == "vakt rummet":
-            print("Du går in i vakt rummet.")
-            # time.sleep(1)
-            print("Vakten är inte här. Du kan undersöka rummet.")
-            input("Tryck på Enter för att återvända till korridoren.")
+    if cell_choice == "2":
+        print("Du går in i fängelse cell nummer 2 och ser ett stort hål i väggen")
+        explore = input("Vill du (utforska) hålet eller (gå tillbaka) till korridoren? ").strip().lower()
+        if explore == "utforska":
+            explore_hole()
+        elif explore == "gå tillbaka":
+            enter_corridor()
         else:
-            print("Ogiltigt val, försök igen.")
+            print("Ogiltigt val, försök igen")
+            enter_corridor()
+
+
+    elif cell_choice == "5":
+        print("Du går in i fängelse cell nummer 5")
+    elif cell_choice == "9":
+        print("Du går in i fängelse cell nummer 9")
+
+    elif cell_choice == "11":
+        print("Du går in i fängelse cell nummer 11")
+
+    elif cell_choice == "vakt rummet":
+        print("Du går in i vakt rummet.")
+        # time.sleep(1)
+        print("Vakten är inte här. Du kan undersöka rummet.")
+        input("Tryck på Enter för att återvända till korridoren.")
+    else:
+        print("Ogiltigt val, försök igen.")
+        enter_corridor()
+
+def explore_hole():
+    print("Du kryper genom hålet men när du har gått halvvägs känner du att hålet har blivit mindre och du fastnar med höften.")
+    print("Du försöker att komma loss från hålet men lyckas inte så du ligger där i flera timmar innan du blir hittad av en vakt.\nDu blir sedan utdragen ur hålet och vakten drar dig till en ny fängelsecell som du inte kan ta dig ut ur")
+    exit_lost_game()
 
 def enter_room2():
     # time.sleep(1)
@@ -236,7 +294,7 @@ def interact_with_guard():
     fight_or_run = input().strip().lower() 
     # time.sleep(1)
     if fight_or_run == "slåss":
-        print("Du lyckas strypa vakten innan du fortsättar tar du även vaktens nyckel")
+        print("Du lyckas strypa vakten innan du fortsätter tar du även vaktens nyckel")
         # time.sleep(1)
         found_key = True
         enter_room()
@@ -249,15 +307,9 @@ def interact_with_guard():
         interact_with_guard()
 
 def main():
-    welcome_message()
-    start_room()
+    start_meny()
     
-        
-    play_again = input("Vill du spela igen? (ja/nej): ").strip().lower()
-    # time.sleep(1)
-    if play_again != "ja":
-        print("Tack för att du spelade!")
-        # time.sleep(1)
+    
 
 if __name__ == "__main__":
     main()

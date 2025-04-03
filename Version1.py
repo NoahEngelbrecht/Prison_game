@@ -10,6 +10,8 @@ visited_room_3 = False
 fight = False
 talk = False
 entered_corridor = False
+gitarr = False
+visited_cell5 = False
 
 def start_meny():
     print("""Välkommen till mitt Prison Game spel
@@ -246,24 +248,18 @@ def enter_corridor():
     # time.sleep(1)
         
     if cell_choice == "2":
-        print("Du går in i fängelse cell nummer 2 och ser ett stort hål i väggen")
-        explore = input("Vill du (utforska) hålet eller (gå tillbaka) till korridoren? ").strip().lower()
-        if explore == "utforska":
-            explore_hole()
-        elif explore == "gå tillbaka":
-            enter_corridor()
-        else:
-            print("Ogiltigt val, försök igen")
-            enter_corridor()
+        cell_2()
 
 
     elif cell_choice == "5":
-        print("Du går in i fängelse cell nummer 5")
+        cell_5()
+
     elif cell_choice == "9":
-        print("Du går in i fängelse cell nummer 9")
+        cell_9()
+
 
     elif cell_choice == "11":
-        print("Du går in i fängelse cell nummer 11")
+        cell_11()
 
     elif cell_choice == "vakt rummet":
         print("Du går in i vakt rummet.")
@@ -273,6 +269,49 @@ def enter_corridor():
     else:
         print("Ogiltigt val, försök igen.")
         enter_corridor()
+def cell_2():
+    print("Du går in i fängelse cell nummer 2 och ser ett stort hål i väggen")
+    explore = input("Vill du (utforska) hålet eller (gå tillbaka) till korridoren? ").strip().lower()
+    if explore == "utforska":
+        explore_hole()
+    elif explore == "gå tillbaka":
+        enter_corridor()
+    else:
+        print("Ogiltigt val, försök igen")
+        cell_2()
+
+def cell_5():
+    global gitarr, visited_cell5
+    if not visited_cell5:
+        print("Du går in i fängelse cell nummer 5")
+        print("I cellen hittar du en gitarr")
+        gitarren = input("Vad vill du göra med gitarren? (spela musik) eller använda den som ett (vapen) ")
+        visited_cell5 = True
+    if gitarren == "spela musik":
+        print("Du spelar så hög musik att vakterna hittar dig.")
+        exit_lost_game()
+    elif gitarren == "vapen":
+        gitarr = True
+        print("Du slår sönder gitarren så att du får en vass träbit du kan använda för att attackera vakterna om du träffar på dem.")
+        utforska_eller_tillbaka = input("Vill du fortsätta att (utforska) fängelseceller eller vill du (gå tillbaka)? ")
+        if utforska_eller_tillbaka == "utforska":
+            print("Du fortsätter att utforska rummet ")
+            
+        elif utforska_eller_tillbaka == "gå tillbaka":
+            print("Du går tillbaka ut till korridoren.")
+            enter_corridor()
+        else:
+            print("Ogiltigt val, försök igen")
+            cell_5()
+    else:
+        print("Ogiltigt val, försök igen")
+        cell_5()
+
+def cell_9():
+    print("Du går in i fängelse cell nummer 9")
+
+def cell_11():
+    print("Du går in i fängelse cell nummer 11")
 
 def explore_hole():
     print("Du kryper genom hålet men när du har gått halvvägs känner du att hålet har blivit mindre och du fastnar med höften.")

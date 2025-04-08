@@ -12,6 +12,7 @@ talk = False
 entered_corridor = False
 gitarr = False
 visited_cell5 = False
+visited_vakt_rum = False
 
 def start_meny():
     print("""Välkommen till mitt Prison Game spel
@@ -262,10 +263,8 @@ def enter_corridor():
         cell_11()
 
     elif cell_choice == "vakt rummet":
-        print("Du går in i vakt rummet.")
-        # time.sleep(1)
-        print("Vakten är inte här. Du kan undersöka rummet.")
-        input("Tryck på Enter för att återvända till korridoren.")
+        vakt_rum()
+
     else:
         print("Ogiltigt val, försök igen.")
         enter_corridor()
@@ -285,8 +284,8 @@ def cell_5():
     if not visited_cell5:
         print("Du går in i fängelse cell nummer 5")
         print("I cellen hittar du en gitarr")
-        gitarren = input("Vad vill du göra med gitarren? (spela musik) eller använda den som ett (vapen) ")
         visited_cell5 = True
+    gitarren = input("Vad vill du göra med gitarren? (spela musik) eller använda den som ett (vapen) ")
     if gitarren == "spela musik":
         print("Du spelar så hög musik att vakterna hittar dig.")
         exit_lost_game()
@@ -296,6 +295,9 @@ def cell_5():
         utforska_eller_tillbaka = input("Vill du fortsätta att (utforska) fängelseceller eller vill du (gå tillbaka)? ")
         if utforska_eller_tillbaka == "utforska":
             print("Du fortsätter att utforska rummet ")
+            print("När du kollar runt i rummet närker du att ena delen av väggen bara är en bit tunn kartong.")
+            print("Du tar bort kartong biten och ser att det leder till ett stort hål som leder dig ut ur fängelset")
+            exit_game()
             
         elif utforska_eller_tillbaka == "gå tillbaka":
             print("Du går tillbaka ut till korridoren.")
@@ -309,9 +311,43 @@ def cell_5():
 
 def cell_9():
     print("Du går in i fängelse cell nummer 9")
+    print("Cellen är helt tom förutom två sängar så du går tillbaka ut till korridoren och kan nu utforska ett annat rum.")
+    enter_corridor()
 
 def cell_11():
     print("Du går in i fängelse cell nummer 11")
+    print("När du kommer in i cellen ser du att det står en vakt där inne och söker igenon rummet.")
+    print("Vakten märker att du inte borde vara där och drar dig tillbaka till en cell som du inte kan ta dig ut ur.")
+    exit_lost_game()
+
+def vakt_rum():
+    global gitarr, visited_vakt_rum
+    if not visited_vakt_rum:
+        print("Du går in i vakt rummet och ser ett helt övervakningsystem över hela fängelset.")
+        print("På väggen hänger också en av vakternas nycklar som du kan använda för att låsa upp alla dörrar i fängelset detta inkluderar den låste dörren bredvid dig som leder ut ur fängelset.")
+        visited_vakt_rum = True
+    spring_eller_kolla = input("Vill du (springa) ut ur fängelset med hjälp av nycklarna du hittade eller (kolla) på övervakningskamrorna och leta efter andra sätt att ta dig ut? ")
+    if spring_eller_kolla == "springa":
+        print("Du öppnade dörren och började springa ut ur fängelset.")
+        time.sleep(5)
+        print("Du märkte dock inte att det stog en vakt utanför dörren på en rökpaus.")
+        print("Vakten märker att du försöker fly och börjar jaga dig")
+        fight_or_run = input("Vill du försöka (springa) ifrån vakten eller (slåss) mot vakten ")
+        if fight_or_run == "springa":
+            print("Vakten är snabbare än vad du är och fångar dig.")
+            exit_lost_game()
+        elif fight_or_run == "slåss":
+            if gitarr == True:
+                print("Du använder gitarren du hittade förut för att hugga vakten i magen")
+                print("DU lyckas hugga vakten i magen och kan nu springa ut ur fängelset utan att några andra vakten hittar dig.")
+                exit_game()
+            else:
+                print("Vakten lyckas övermanne dig med sin batong.")
+                exit_lost_game()
+        else:
+            print("Ogiltigt val, försök igen")
+            vakt_rum()
+        
 
 def explore_hole():
     print("Du kryper genom hålet men när du har gått halvvägs känner du att hålet har blivit mindre och du fastnar med höften.")

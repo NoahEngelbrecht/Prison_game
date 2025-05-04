@@ -1,5 +1,5 @@
 import time
-import random  # Importing random to help with hidden item discovery
+import random  # Importerar random för att hjälpa till med upptäckten av dolda föremål.
 
 # Globala variabler för att spåra spelets tillstånd
 found_key = False  # Indikerar om spelaren har hittat den första nyckeln

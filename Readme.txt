@@ -1,4 +1,4 @@
-Prison Game - Readme.txt
+Prison Game - Readme.txt av Noah Engelbrecht (2025-05-13
 
   Översikt
 Prison Game är ett textbaserat äventyrsspel där spelarna antar rollen som en fånge som försöker fly från ett högsäkerhetsfängelse. Spelet kräver att spelarna löser pussel, fattar beslut och interagerar med olika karaktärer för att framgångsrikt navigera genom fängelset och slutligen uppnå frihet.
